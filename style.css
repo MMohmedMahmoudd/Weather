@@ -109,14 +109,23 @@ footer input.form-control{
 .card{
     height: 28rem;
     color: white;
-    border-radius: 0 !important;
-    background-color: transparent;
     border: none;
     max-height:28rem !important;
+    background: linear-gradient(90deg, rgb(85, 91, 114) 0%, rgba(85, 91, 114) 31%, rgba(50,53,68,1) 100%);
 }
 
 .card.one{
     height: 28rem;
+    border-top-left-radius: 14PX;
+    border-bottom-left-radius: 14px;
+
+
+}
+.card.three{
+    border-top-right-radius: 14PX;
+    border-bottom-right-radius: 14px;
+
+
 }
 .card.one h3{
     font-size: 90px !important;
@@ -128,6 +137,8 @@ footer input.form-control{
 }
 .card.three .body{
     border-bottom-right-radius: 12PX;
+    background-color: #323544;
+
 
 }
 .card.two .body{
@@ -138,33 +149,21 @@ footer input.form-control{
     height: 100%;
 
 }
-.card.three .body{
-    background-color: #323544;
-
-
-}
-
 sub{
     bottom: 0.75em;
 
 }
-.cards{
-    height: 0;
-}
-.card.one .top-info{
-    border-top-left-radius: 12PX;
-    background-color: #3d4252 !important;
-}
 .one .top-info{
-    border-top-left-radius: 12PX;
     background-color: #3d4252 !important;
+    border-top-left-radius: 14PX;
+
 }
 .two .top-info{
     background-color: #242731 !important;
 }
 .three .top-info{
     background-color: #3d4252 !important;
-    border-top-right-radius: 12PX;
+    border-top-right-radius: 14PX;
 
 }
 footer{
@@ -272,8 +271,36 @@ section#ContactSection{
 
 }
 .cards{
+    height: 0;
     animation-name: drop;
     animation-duration: 1s;
+}
+#weatherResult{
+    height: 28rem;
+    box-shadow: 0px 0px 40px 15px rgba(0, 0, 0, 0.486);
+    -webkit-box-shadow: 0px 0px 19px 15px rgba(0, 0, 0, 0.486);
+    -moz-box-shadow: 0px 0px 40px 15px rgba(0, 0, 0, 0.486);
+    border-radius: 24px;
+
+}
+@media (max-width:767px) {
+    #weatherResult{
+        height: 84rem !important;
+
+    }
+    .card{
+        border-radius: 14px !important;
+    }
+    .card.one{
+        border-top-right-radius : 14px !important;
+    }
+    .card .top-info{
+        border-top-right-radius: 14px !important;
+    }
+    .card.three .body{
+        border-bottom-left-radius: 14px !important;
+    }
+    
 }
 .Home .form-control{
     animation-name: drop;
