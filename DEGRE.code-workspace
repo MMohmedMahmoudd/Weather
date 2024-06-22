@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../Bezel"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "DEGRE"
+	}
+}
