@@ -177,8 +177,11 @@ footer .container.third{
     max-width: 100% !important;
     height: 17rem;
 }
+footer .row .col-md-4{
+    padding-bottom: 3rem;
+}
 footer .row{
-    width: 75% !important;
+    width: 85% !important;
 
 }
 .icons .icon{
@@ -373,4 +376,9 @@ a.email{
 }
 iframe{
     width: calc(100%);
+}
+@media (min-width:768px) and (max-width:992px) {
+    footer .col-md-4{
+        padding-inline:0;
+    }
 }
