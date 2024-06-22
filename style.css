@@ -12,6 +12,7 @@ main{
 
 }
 section.Home{
+    
     height: 29rem;
     z-index: 0;
     background: url(banner.png) center bottom no-repeat;
@@ -178,7 +179,7 @@ footer .container.third{
     height: 17rem;
 }
 footer .row .col-md-4{
-    padding-bottom: 3rem;
+    padding-bottom: 2rem;
 }
 footer .row{
     width: 85% !important;
@@ -261,7 +262,7 @@ div.row.down{
     font-size: 14px;
 }
 section#ContactSection{
-    /* height: 60rem; */
+    height: 60rem;
     z-index: 0;
     animation-name: drop;
     animation-duration: 0.5s;
