@@ -6,8 +6,9 @@ ContactSection.style.display= 'none'
 let Contact= document.getElementById('Contact');
 let main= document.getElementById('main');
 let Home= document.getElementById('Home');
-let HomeLink=document.getElementById('HomeLink');
-HomeLink.addEventListener('click',function(){
+let parentHomeLink=document.getElementById('parentHomeLink');
+let parentContactLink=document.getElementById('parentContactLink');
+parentHomeLink.addEventListener('click',function(){
     displayHome()
 })
 Contact.addEventListener('click',function(){
@@ -18,6 +19,10 @@ function displayContact(){
     Home.classList.remove('d-flex')
     Home.classList.add('d-none')
     ContactSection.style.display="block";
+    parentHomeLink.classList.remove('active');
+    parentContactLink.classList.add('active');
+    main.style.height='60rem'
+
     // main.style.height='60rem'
 
 }
@@ -25,6 +30,10 @@ function displayHome(){
     Home.classList.remove("d-none");
     Home.classList.add("d-flex");
     ContactSection.style.display="none";
+    parentHomeLink.classList.add('active');
+    parentContactLink.classList.remove('active');
+    main.style.height='62rem'
+
     // main.style.height='65rem'
 
 }
