@@ -22,9 +22,6 @@ function displayContact(){
     parentHomeLink.classList.remove('active');
     parentContactLink.classList.add('active');
     main.style.height='60rem'
-
-    // main.style.height='60rem'
-
 }
 function displayHome(){
     Home.classList.remove("d-none");
@@ -33,9 +30,6 @@ function displayHome(){
     parentHomeLink.classList.add('active');
     parentContactLink.classList.remove('active');
     main.style.height='62rem'
-
-    // main.style.height='65rem'
-
 }
 async function search(location) {
     const apiKey = 'a9184adeba9b4fbdb4b22123242006';
