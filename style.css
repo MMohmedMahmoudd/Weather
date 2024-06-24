@@ -233,7 +233,7 @@ div.row.down{
 }
 @media(max-width:767px){
     body{
-        height: 100rem;
+        height: 122rem;
     }
     main{
         height: 122rem;
@@ -241,6 +241,9 @@ div.row.down{
     }
     footer{
         bottom: 0;
+    }
+    footer .container.third{
+        height: 16rem;
     }
     iframe{
         width: calc(100%);
