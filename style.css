@@ -83,7 +83,7 @@ section.first-nav{
 input#submit{
     position: absolute;
     top: 8%;
-    right: 4px;
+    right: 12.8%;
     background-color: #4ea0ff;
     color: white;
     outline: none;
@@ -102,6 +102,7 @@ footer input.form-control{
     border-radius: 24px !important;
     background-color: #1e202b;
     color: white;
+    width: 75% !important;
 
 }
 
@@ -180,7 +181,7 @@ footer .container.third{
     height: 13rem;
 }
 footer .row .col-md-4{
-    padding-bottom: 1rem;
+    padding-bottom: 2.5rem;
 }
 footer .row{
     width: 85% !important;
@@ -243,7 +244,7 @@ div.row.down{
         bottom: 0;
     }
     footer .container.third{
-        height: 16rem;
+        height: 20rem;
     }
     iframe{
         width: calc(100%);
